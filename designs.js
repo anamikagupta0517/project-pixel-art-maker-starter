@@ -21,7 +21,7 @@ submitButton?.addEventListener('click', (e) => {
 function makeGrid() {
     var height = document.querySelector("#inputHeight").value;
     var width = document.querySelector("#inputWidth").value;
-   
+
     for (var row = 0; row < height; row++) {
         var tabRow = document.createElement("TR");
         tabRow.setAttribute("id", row);
